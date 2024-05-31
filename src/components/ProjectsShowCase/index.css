@@ -1,0 +1,83 @@
+.header-container {
+  background-size: cover;
+  padding: 20px 30px 20px 30px;
+  background-color: #cbd5e1;
+  display: flex;
+  flex-direction: row;
+}
+.app-logo {
+  width: 120px;
+  height: 60px;
+  margin: 0px 10px 0px 30px;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-size: cover;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
+.options-container {
+  margin: 10px;
+}
+.options-list {
+  border: solid #e2e8f0;
+  border-radius: 4px;
+  width: 360px;
+  padding: 8px;
+}
+.show-case-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 100%;
+}
+.projects-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.failure-view-img {
+  width: 30%;
+  height: 30%;
+}
+.failure-view-title {
+  color: #475569;
+  font-size: 28px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.failure-view-desc {
+  color: #e2e8f0;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.retry-btn {
+  background-color: #328af2;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding: 8px;
+}
+.projects-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
